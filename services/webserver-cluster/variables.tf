@@ -26,3 +26,8 @@ variable "max_size" {
   type        = number
   default     = 10
 }
+
+variable "enable_autoscaling" {
+  description = "If set to true, enable auto scaling"
+  type        = bool
+}
